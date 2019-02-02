@@ -1,0 +1,352 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="StateMigrationBackend.LogEngine.Logger" Collapsed="true">
+    <Position X="5.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAABACAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>LogEngine\Logger.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.Models.CBO" Collapsed="true">
+    <Position X="12.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\CboModels.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.Models.OperationModel" Collapsed="true">
+    <Position X="14" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAgAAAAAgAAAAEAAAAAAAAAAAAAAAAQAAAAAAABAAAA=</HashCode>
+      <FileName>Models\OperationModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.Models.Key" Collapsed="true">
+    <Position X="14" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAAQAA=</HashCode>
+      <FileName>Models\OperationModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.Models.StringEventArgs" Collapsed="true">
+    <Position X="8.75" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\OperationModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.Models.SettingsModel" Collapsed="true">
+    <Position X="5.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAIAAAAABAAAAAAAAQAAAAAAAAAAAAAIAAEAAAAAAAA=</HashCode>
+      <FileName>Models\OperationModel.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.Models.Person" Collapsed="true">
+    <Position X="7" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAgAAAAAAAAAAAEAQAAAAAAAAAAAgABAAAQAA=</HashCode>
+      <FileName>Models\Person.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.Models.Printers" Collapsed="true">
+    <Position X="8.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAQAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>Models\Printers.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.Models.SystemDetails" Collapsed="true">
+    <Position X="10.5" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQQAgAAAAAAAQAAAAAAAEAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Models\SystemDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationTool.UIMessages" Collapsed="true">
+    <Position X="12.25" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAIAAAAAA=</HashCode>
+      <FileName>Models\UIMessages.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigration.UI.Program" Collapsed="true">
+    <Position X="10.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigration.UI.mainFrom" Collapsed="true">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>OkUMyBqTwWRIM/3fI4au7REPFG+mIoN+Y2qqyob8RUs=</HashCode>
+      <FileName>UI\BackupTab.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackupTool.Properties.Resources" Collapsed="true">
+    <Position X="7" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAIAAAAAAAAAAAAAABkAAABQAAAAAAAAAAAAAAAIA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackupTool.Properties.Settings" Collapsed="true">
+    <Position X="14" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAAABAAAAAAAAAAAAAAA=</HashCode>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.StateMigrationEngine.AccessViolationHelper" Collapsed="true">
+    <Position X="7" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAEAAAAAACBgAAAAAIAAAAAQAAAAQAAAA=</HashCode>
+      <FileName>StateMigrationEngine\AccessViolationHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.StateMigrationEngine.BackupCopyHandler" Collapsed="true">
+    <Position X="10.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACCAgAA0ABAABAAAAIACAAAAAAAAAAAAAAQADAA=</HashCode>
+      <FileName>StateMigrationEngine\BackupCopyHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.StateMigrationEngine.DataBackup" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAEAQAAAAAAACEBAAAEAAAABAAiQAAAABAA=</HashCode>
+      <FileName>StateMigrationEngine\DataBackup.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateMigrationBackend.StateMigrationEngine.DataRestore" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAQAAAAAAACIAACAAAACAAAAAWAAAAAAAAwAAAABAA=</HashCode>
+      <FileName>StateMigrationEngine\DataRestore.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateMigrationBackend.StateMigrationEngine.EnumData" Collapsed="true">
+    <Position X="10.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAAAIAAA=</HashCode>
+      <FileName>StateMigrationEngine\EnumData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.StateMigrationEngine.CountModel" Collapsed="true">
+    <Position X="14" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAABAAACAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StateMigrationEngine\EnumData.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.StateMigrationEngine.FileOperations" Collapsed="true">
+    <Position X="12.25" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>StateMigrationEngine\FileOperations.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.StateMigrationEngine.NetworkPrintersOperator" Collapsed="true">
+    <Position X="0.5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgEAAAAAAAAAAAAAIABgQAAAAAAAAAAAAQAABA=</HashCode>
+      <FileName>StateMigrationEngine\NetworkPrintersOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StateMigrationBackend.StateMigrationEngine.NetworkSharesOperator" Collapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAgACAAAAAIAAAAAAAAQAAAAAAAQAAAA=</HashCode>
+      <FileName>StateMigrationEngine\NetworkSharesOperator.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="StateMigrationBackend.StateMigrationEngine.RegistryInterpolator" Collapsed="true">
+    <Position X="1.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAACAAAA=</HashCode>
+      <FileName>StateMigrationEngine\RegistryInterpolator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.StateMigrationEngine.RestoreCopyHandler" Collapsed="true">
+    <Position X="8.75" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAACCAgAA0ABAABAAAAIACAAAAAAAAAAAAAAQADAA=</HashCode>
+      <FileName>StateMigrationEngine\RestoreCopyHandler.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.StateMigrationEngine.SharedResourceHelper" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="7" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAABABCAAAAAEgIAAYQAQAAEAIAAAAAEAAAIAAIAQBA=</HashCode>
+      <FileName>StateMigrationEngine\SharedResourceHelper.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BackupBackend.StateMigrationEngine.NetworkDriveAPI" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="8.75" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAABAAAAAAgAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StateMigrationEngine\NetworkDriveAPI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="BackupBackend.StateMigrationEngine.SafeNativeMethods" Collapsed="true">
+    <Position X="12.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAAABAA=</HashCode>
+      <FileName>StateMigrationEngine\NetworkDriveAPI.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="BackupBackend.StateMigrationEngine.NetworkPrinterAPI" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="10.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACIAAAAAgAAAAAAAAgAAIAAAAAACAAAAAABBAAAAAA=</HashCode>
+      <FileName>StateMigrationEngine\NetworkPrinterAPI.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="StateMigrationBackend.StateRegions.AutoDetection" Collapsed="true">
+    <Position X="8.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StateRegions\AutoDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.StateRegions.RamSize" Collapsed="true">
+    <Position X="12.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>StateRegions\AutoDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.StateRegions.OperatingSystem" Collapsed="true">
+    <Position X="12.25" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAAAA=</HashCode>
+      <FileName>StateRegions\AutoDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.StateRegions.SafeNativeMethods" Collapsed="true">
+    <Position X="10.5" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAA=</HashCode>
+      <FileName>StateRegions\AutoDetection.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.StateRegions.Destination" Collapsed="true">
+    <Position X="8.75" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StateRegions\Destination.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.StateRegions.Regions" Collapsed="true">
+    <Position X="14" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAQAAAAAAAAAAEAAAAAAAAAAAAAIAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StateRegions\Regions.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.StateRegions.UserDetails" Collapsed="true">
+    <Position X="14" Y="5.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StateRegions\UserDetails.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.Validation.AccessValidator" Collapsed="true">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAIAAA=</HashCode>
+      <FileName>Validation\AccessValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.Validation.PathValidator" Collapsed="true">
+    <Position X="5.25" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\PathValidator.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="StateMigrationBackend.Validation.RegistryAccessValidation" Collapsed="true">
+    <Position X="5.25" Y="4.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAQAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>Validation\RegistryAccessValidation.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="StateMigrationBackend.StateMigrationEngine.Interfaces.IDataBackup" Collapsed="true">
+    <Position X="5.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAEAQAAAAAAACEBAAAEAAAABAAiQAAAABAA=</HashCode>
+      <FileName>StateMigrationEngine\Interfaces\IDataBackup.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateMigrationBackend.StateMigrationEngine.Interfaces.IDataRestore" Collapsed="true">
+    <Position X="7" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AEAAAAAAAAACIAACAAAACAAAAAWAAAAAAAAwAAAABAA=</HashCode>
+      <FileName>StateMigrationEngine\Interfaces\IDataRestore.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateMigrationBackend.StateMigrationEngine.Interfaces.INetworkDriveAPI" Collapsed="true">
+    <Position X="8.75" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAAAABAAAAAAAAAAAIAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>StateMigrationEngine\Interfaces\INetworkDriveAPI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateMigrationBackend.StateMigrationEngine.Interfaces.INetworkPrinterAPI" Collapsed="true">
+    <Position X="10.5" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAgAAAAAAAAAAAIAAAAAACAAAAAABBAAAAAA=</HashCode>
+      <FileName>StateMigrationEngine\Interfaces\INetworkPrinterAPI.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateMigrationBackend.StateMigrationEngine.Interfaces.INetworkPrintersOperator" Collapsed="true">
+    <Position X="12.25" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAEAAAAAAAAAAAAAIABgAAAAAAAAAAAAAQAABA=</HashCode>
+      <FileName>StateMigrationEngine\Interfaces\INetworkPrintersOperator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateMigrationBackend.StateMigrationEngine.Interfaces.INetworkSharesOperator" Collapsed="true">
+    <Position X="14" Y="6.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAIAAAAAAAAAgACAAAAAIAAAAAAAAAAAAAAAAQAAAA=</HashCode>
+      <FileName>StateMigrationEngine\Interfaces\INetworkSharesOperator.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="StateMigrationBackend.StateMigrationEngine.Interfaces.ISharedResourceHelper" Collapsed="true">
+    <Position X="5.25" Y="7.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>GAAAABCAAAAAEgIAAQQAAAAEAIAAAAAEAAAIAAAAABA=</HashCode>
+      <FileName>StateMigrationEngine\Interfaces\ISharedResourceHelper.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="StateMigrationBackend.LogEngine.LogOptions" Collapsed="true">
+    <Position X="7" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAIAAAACAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>LogEngine\Logger.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StateMigrationBackend.LogEngine.LogState" Collapsed="true">
+    <Position X="8.75" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAACAAAAAAAAAAAAAAQAAAAAAAAAAAAA=</HashCode>
+      <FileName>LogEngine\Logger.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="StateMigrationBackend.LogEngine.LogOperation" Collapsed="true">
+    <Position X="5.25" Y="8.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAgAAAA=</HashCode>
+      <FileName>LogEngine\Logger.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="Segoe UI" Size="9" />
+</ClassDiagram>
